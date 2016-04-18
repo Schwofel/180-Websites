@@ -1,0 +1,51 @@
+html {
+	font-size: 20px;
+	font-family: Verdana;
+	color: white;
+	background-color: #EFEFEF;
+}
+
+div.container-960 {
+	max-width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid grey;*/
+	border-radius: 5px;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	background-color: cornflowerblue;
+}
+
+hr {
+	border-color: white;
+}
+
+h1.title {
+	text-align: center;
+}
+
+p.description {
+	text-align: center;
+}
+
+p.footer {
+	text-align: center;
+}
+
+div.websites {
+	display: flex;
+	padding: 10px 0;
+}
+
+ol.website-list {
+	max-width: 30%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+ol.website-list > li > a {
+	color: white;
+}
+
+ol.website-list > li > a:hover {
+	color: orange;
+}
